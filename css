@@ -1,0 +1,119 @@
+/*---CSS FOR HEAD----*/
+<style>
+html {
+    overflow-x: hidden; 
+    position: relative;
+    min-height: 100%;
+}
+    head {
+        background-color: aqua;
+    }
+    body {
+        
+        line-height: normal;
+        margin: 0 0 150px;
+        font-size: medium; 
+    }
+    /*------universal selector---*/
+    * {
+margin: 0px;
+    }
+    /*---CSS FOR HEADER--*/
+    #header-1 {
+        background-color: blueviolet;
+        font-size: 48px;
+        padding: 50px;
+        margin: 0px;
+        text-align: center;
+        position: -HACHALU ACADEMY;
+        position: sticky;
+        top: 0;
+        padding: 50px;
+        font-size: 20px;
+       
+    }
+    #Hachalu {
+        color: rgb(4, 41, 4);
+    }
+    #Academy {
+        color: rgb(7, 7, 122);
+    }
+    /*----CSS FOR INTRODUCTION-----*/
+    #Introduction {
+        padding: 10px;
+        color: black;
+        font-size: 32px;
+        margin-left: 25%;
+    }
+    /*---navigation---*/
+    .active {
+        border-bottom: 2px solid rgb(225, 219, 219);
+        padding: 3px;
+    }
+    .menu-list{
+ background-color: rgb(144, 155, 209);
+padding: 25px;
+text-align: center;
+    }
+    .menu-list li{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .menu-list li{
+        color: rgb(30, 219, 146);
+        text-decoration: none;
+
+    }
+    .about-us {
+        padding: 10px;
+        color: black;
+        font-size: 60px;
+        margin-left: 25%;
+
+    }
+    meter {
+        height:50px;
+        width: 500px;
+    }
+   
+    progress {
+        height: 50px;
+        <width:500;
+    }
+    pre span {
+   color: rgb(39, 198, 198);
+}
+
+    table, td, th {
+        border: 2px solid;
+        border-collapse: collapse;
+    }
+    table {
+        width:500px;
+        margin:100 auto;
+
+    }
+    thead {
+        background-color: rgb(142, 187, 142);
+        color: rgb(86, 134, 27);
+    }
+    table td {
+        border: 2px solid chocolate;
+        color:rgb(30, 25, 19)
+    }
+    td {
+        padding-left:10px
+    }
+   
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(201, 246, 112);
+      color: rgb(10, 3, 3);
+      text-align: center;
+      
+    }
+  
+   
