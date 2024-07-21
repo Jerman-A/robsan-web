@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+      <meta charset="UTF-8"/>
+      <meta http-equiv="refresh" content="3600">
+      <link name="viewport" content="width=device-width,
+      initial-scale=1.0">
+        <meta name="description"
+        content="Jerman Asfaw (Robsan)|  the best web developer,
+        graphic design and content creation"/>
+         <meta name="keywords"
+         content="web develop, graphic design, social media content creation"/>
+         <meta name="author" content="Hachalu Academy"/>
+         
+       <title>Jerman Asfaw
+       </title>
+       <!------------link from the out side-->
+       <link rel="stylesheet" href="./css"/>
+       <link rel="stylesheet" href="./javascript"/>
+
+       <link
+       rel="stylesheet"
+       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+       crossorigin="anonymous"
+     />
+
+</link>
+</head>
+
+   <body>
+    <div class="cursor-indicator" id="cursorIndicator"></div>
+
+    <script>
+        const cursorIndicator = document.getElementById('cursorIndicator');
+
+        document.addEventListener('mousemove', (e) => {
+            cursorIndicator.style.left = `${e.pageX}px`;
+            cursorIndicator.style.top = `${e.pageY}px`;
+        });
+    </script>
+    <div class="typewriter">
+      <h1 id="header-1" class="title">
+        <span id="Hachalu">Jerman Asfaw
+        </span>
+        <span id="Hachalu">  (Robsan)
+</span>
+</h1>
+</div> 
+    
+      <ul class="menu-list">
+          <li>
+            <a href="./robsan web"  class="active">HOME</a>
+          </li>
+          <li>
+            <a href="./about me">ABOUT</a>
+          </li>
+          <li>
+            <a href="./contanct">CONTACTS</a>
+          </li>
+        </ul>
+    </header>
+    
+    <!...about header....>
+    
+    <!.....about myself....>
+    <div>
+<h2 class="Introduction">Introduction</h2>
+<p>A highly qualify technical engineer who can combine knowledge of mechanical engineering technology with knowledge
+ of basic principles of electrical and electronic equipment to design develop, test and manufacturing electronic and
+  computer-controlled mechanical systems, such as robotic assembly machine; has been exposed to operation of the machine
+   in industries and other work site; and has exposure that overlap both Mechanical and Electrical engineering.
+  Highly qualify Graphic design, it is a craft where professionals create visual content to communicate messages.
+    By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' 
+    specific needs and focus on the logic of displaying elements in interactive designs to optimize the user experience.
+    Excellent Web development, it is a process of designing, building, testing, and maintaining a website which ranges from 
+    a simple single page static website to a complex full-stack applications. </p>
+       
+    </div>
+    
+<footer >
+  <!.....about link...>
+ <div>
+  <a href="https://github.com/Jerman-A/Jerman-A.git" target="_blank"
+    ><i class="fab fa-github-square"></i
+  ></a>
+  <a href="https://www.linkedin.com/in/jerman-asfaw-97637b206" target="_blank"
+    ><i class="fab fa-linkedin"></i
+  ></a>
+  <a href="https://x.com/Robsanasfaw" target="_blank"
+    ><i class="fab fa-twitter-square"></i
+  ></a>
+  <a href="https://member.theroom.com/profile/7b8893a7-bc10-429d-95f0-a442f3ffb384" target="_blank"> ALX </a>
+</div> 
+  <em>
+     &copy; 2024GC
+  </em>
+ 
+ </footer>
+
+   </body>
+   
+    
+</html>

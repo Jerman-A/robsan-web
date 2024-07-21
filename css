@@ -4,15 +4,27 @@ html {
     overflow-x: hidden; 
     position: relative;
     min-height: 100%;
+    
 }
     head {
-        background-color: aqua;
+        background-image: url(videoframe_15806.png);
     }
+
+          .cursor-indicator {
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              background-color: rgb(186, 246, 35);
+              border-radius: 50%;
+              pointer-events: none; /* Prevents the cursor indicator from interfering with other elements */
+          }
+      
+
     body {
-        
+        background-image: url(body2.png);
         line-height: normal;
         margin: 0 0 150px;
-        font-size: medium; 
+        font-size: 32px; 
     }
     /*------universal selector---*/
     * {
@@ -20,12 +32,12 @@ margin: 0px;
     }
     /*---CSS FOR HEADER--*/
     #header-1 {
-        background-color: blueviolet;
+        background-image: url(ess\ jirta.png);
         font-size: 48px;
         padding: 50px;
         margin: 0px;
         text-align: center;
-        position: -HACHALU ACADEMY;
+        position: -Jerman Asfaw (Robsan);
         position: sticky;
         top: 0;
         padding: 50px;
@@ -33,27 +45,68 @@ margin: 0px;
        
     }
     #Hachalu {
-        color: rgb(4, 41, 4);
+        color: rgb(220, 251, 17);
+        font-size: 60px;
     }
-    #Academy {
-        color: rgb(7, 7, 122);
+    .typewriter {
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
     }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
+ 
     /*----CSS FOR INTRODUCTION-----*/
-    #Introduction {
+    .Introduction {
         padding: 10px;
-        color: black;
-        font-size: 32px;
+        color: rgb(3, 4, 0);
+        font-size: 42px;
         margin-left: 25%;
+        text-align: center;
     }
+    .Introduction {
+        overflow: hidden;
+        border-right: .15em solid rgb(13, 237, 121);
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(19, 244, 128); }
+    }
+  
+   
+
     /*---navigation---*/
     .active {
-        border-bottom: 2px solid rgb(225, 219, 219);
-        padding: 3px;
+        border-bottom: 5px dotted rgb(15, 236, 59);
+        padding: 2px; 
     }
     .menu-list{
- background-color: rgb(144, 155, 209);
+ background-image: url(KKK.png);
 padding: 25px;
 text-align: center;
+font-size: 32px;
+
     }
     .menu-list li{
         display: inline-block;
@@ -61,49 +114,16 @@ text-align: center;
     }
     .menu-list li{
         color: rgb(30, 219, 146);
-        text-decoration: none;
 
     }
     .about-us {
         padding: 10px;
         color: black;
-        font-size: 60px;
+        font-size: 32px;
         margin-left: 25%;
 
     }
-    meter {
-        height:50px;
-        width: 500px;
-    }
    
-    progress {
-        height: 50px;
-        <width:500;
-    }
-    pre span {
-   color: rgb(39, 198, 198);
-}
-
-    table, td, th {
-        border: 2px solid;
-        border-collapse: collapse;
-    }
-    table {
-        width:500px;
-        margin:100 auto;
-
-    }
-    thead {
-        background-color: rgb(142, 187, 142);
-        color: rgb(86, 134, 27);
-    }
-    table td {
-        border: 2px solid chocolate;
-        color:rgb(30, 25, 19)
-    }
-    td {
-        padding-left:10px
-    }
    
     footer {
       position: fixed;
@@ -115,5 +135,114 @@ text-align: center;
       text-align: center;
       
     }
-  
    
+    .cont {
+     
+        overflow: hidden;
+        background-image: url(body2.png);
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    
+    .animate-image {
+        width: 300px;
+        height: 300px;
+        animation: rotate 5s infinite linear;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .contacts-us {
+        max-width: 75%;
+       
+    }
+        
+        
+    .cont-us {
+        overflow: hidden;
+        border-right: .15em solid rgb(91, 234, 14);
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(30, end), blink-caret .75s step-end forwards;
+        font-size: 32px;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 75% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
+    
+        
+    
+    .contacts-us h2 {
+        margin-top: 0;
+    }
+    
+   
+    .container {
+        background-image: url(body2.png);
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    
+    .photo img {
+        max-width: 500%;
+        border-radius: 40%;
+        margin-top: 10px;
+           
+    }
+    
+    .about-us {
+        max-width: 75%;
+    }
+        
+        
+    .ab-us {
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(30, end), blink-caret .75s step-end forwards;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 75% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: orange; }
+    }
+    
+        
+    
+    .about-us h2 {
+        margin-top: 0;
+    }
+    
+    .about-us p {
+        margin: 10px 0 0;
+    }
+   
+    

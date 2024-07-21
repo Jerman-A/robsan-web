@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+      <meta charset="UTF-8"/>
+      <d http-equiv="refresh" content="3600">
+      <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+        <meta name="description"
+        content="Jerman Asfaw (Robsan)|  the best web developer,
+        graphic design and content creation"/>
+         <meta name="keywords"
+         content="web develop, graphic design, social media content creation"/>
+         <meta name="author" content="Hachalu Academy"/>
+       <title>Jerman Asfaw
+       </title>
+       <!------------link from the out side-->
+       <link rel="stylesheet" href="./css"/>
+       <link rel="stylesheet" href="./javascript"/>
+       <link
+       rel="stylesheet"
+       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+       crossorigin="anonymous"
+     />
+  
+
+</head>
+
+   <body>
+    <div class="cursor-indicator" id="cursorIndicator"></div>
+
+    <script>
+        const cursorIndicator = document.getElementById('cursorIndicator');
+
+        document.addEventListener('mousemove', (e) => {
+            cursorIndicator.style.left = `${e.pageX}px`;
+            cursorIndicator.style.top = `${e.pageY}px`;
+        });
+    </script>
+    <header>
+      <div class="typewriter">
+        <h1 id="header-1" class="title">
+          <span id="Hachalu"> Jerman Asfaw
+          </span>
+          <span id="Hachalu">  (Robsan)
+  </span>
+  </h1>
+  </div> 
+    
+      <ul class="menu-list">
+          <li>
+            <a href="./robsan web">HOME</a>
+          </li>
+          <li>
+            <a href="./about me">ABOUT</a>
+          </li>
+         
+          <li>
+            <a href="./contanct" class="active">CONTACTS</a>
+          </li>
+        </ul>
+    </header>
+
+    <div class="cont">
+      <div class="animate-image">
+          <img src="KKK.png" alt="contacts">
+      </div>
+      <div class="contacts-us">
+          <h2 class="cont-us">Contacts</h2>
+          <address>
+            Addis Ababa, Ethiopia 
+            POBOX:1000 </br>
+            TEL: +251965375264 </br>
+            Email:jermanasfaw4@gmail.com
+          </address>
+            
+      </div>
+  </div>
+
+<footer >
+  <!.....about link...>
+ <div>
+  <a href="https://github.com/Jerman-A/Jerman-A.git" target="_blank"
+    ><i class="fab fa-github-square"></i
+  ></a>
+  <a href="https://www.linkedin.com/in/jerman-asfaw-97637b206" target="_blank"
+    ><i class="fab fa-linkedin"></i
+  ></a>
+  <a href="https://x.com/Robsanasfaw" target="_blank"
+    ><i class="fab fa-twitter-square"></i
+  ></a>
+  <a href="https://member.theroom.com/profile/7b8893a7-bc10-429d-95f0-a442f3ffb384" target="_blank"> ALX </a>
+</div> 
+<em>  <span>
+  <p id="demo">JOIN.</p>
+
+  <button type="button" onclick='document.getElementById("demo").innerHTML = "Contact Me!"'>Click Me!</button> </br>
+</span></em>
+  <em>
+     &copy; 2024GC
+  </em>
+  
+ </footer>
+
+   </body>
+   
+   
+   
+</html>
